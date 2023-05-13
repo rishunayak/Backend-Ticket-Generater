@@ -22,7 +22,7 @@ app.post('/create', async (req, res) => {
 
     res.send({msg:"Ticket Created Successfully",ticketId:ticket._id})
 
-     res.send({msg:"Ticket Created Successfully",ticketId:ticket._id})
+  
 
 
 });
