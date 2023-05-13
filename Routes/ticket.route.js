@@ -19,7 +19,11 @@ app.post('/create', async (req, res) => {
    /// console.log(totalTicket)
     const ticket = new Ticket({userId:req.body.id,tickets:totalTicket});
     await ticket.save();
+
     res.send({msg:"Ticket Created Successfully",ticketId:ticket._id})
+
+     res.send({msg:"Ticket Created Successfully",ticketId:ticket._id})
+
 
 });
 
